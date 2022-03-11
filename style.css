@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+}
+.navbar ul {
+    display: flex;
+    background-color: #333;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+li {
+    list-style-type: none;
+    padding: 20px 30px;
+}
+a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+
+}
+.logo {
+    flex-grow: 1;
+    font-size: 30px;
+}
+#one {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( 180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100% );
+    height: 700px;
+    width: 100%;
+}
+h1, h2 {
+    color: #fff;
+    font-size: 60px;
+}
+#two {
+    background-color: rgb(81, 81, 134);
+}
+.text {
+    border-bottom: 3px solid #fff;
+    max-width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    padding-top: 150px;
+}
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 250px;
+}
+.project a {
+    display: block;
+    padding: 40px;
+}
+.project-title {
+    background-color: #333;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+}
+.line {
+    margin: 65px;
+    background-color: burlywood;
+    border-radius:10px;
+}
+.finish {
+    display: block;
+    background-image: linear-gradient( 180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100% );
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding: 80px;
+}
+.finish p {
+    font-size: 20px;
+    background-color: #3251c2;
+    margin: 0 407px;
+}
+.end {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+footer {
+    display: flex;
+    background-color: #333;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.endd {
+    padding: 50px;
+    color: #fff;
+}
+.theend {
+   color: #fff;
+   padding: 50px 130px;
+   display: flex;
+}
